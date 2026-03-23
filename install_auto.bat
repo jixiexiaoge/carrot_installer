@@ -116,7 +116,7 @@ echo [INFO] Creating remote install script...
   echo ^  echo "[STEP] openpilot folder not found, skip backup"
   echo fi
   echo echo "[STEP] Cloning branch into openpilot_new"
-  echo if git clone --progress -b "$BRANCH" https://github.com/ajouatom/openpilot.git openpilot_new; then
+  echo if git clone --progress -b "$BRANCH" https://gitcode.com/jixiexiaoge/openpilot.git openpilot_new; then
   echo ^  echo "[STEP] Clone success"
   echo ^  echo "[STEP] Moving openpilot_new -^> openpilot"
   echo ^  mv openpilot_new openpilot
